@@ -1,0 +1,83 @@
+.cardContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.Card {
+  height: 235px;
+  width: 170px;
+  border: 1px solid black;
+  margin: 15px;
+  text-align: center;
+  padding: 8px;
+}
+.productdata img {
+  height: 150px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:active {
+  color: black;
+}
+.Card:hover {
+  box-shadow: 2px 2px 5px grey;
+  border: none;
+}
+.cardSlider {
+  height: 30px;
+}
+.cartbtn {
+  background-color: #febd68;
+  padding: 8px;
+  margin: 3px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.cartBtn:active {
+  transform: translateY(-2px);
+  box-shadow: 2px 2px 4px 1px grey;
+  border: none;
+}
+.panel {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222f3d;
+  color: #f0f8ff;
+  font-family: "monospace";
+  font-size: 1.6rem;
+}
+
+@media (max-width: 600px) {
+  .Card {
+    height: 170px;
+    width: 131px;
+
+    margin: 7px;
+    text-align: center;
+    padding: 5px;
+  }
+  .cartbtn {
+    padding: 4px;
+    margin: 3px;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 5px;
+  }
+  .productdata img {
+    height: 100px;
+  }
+  .title h3 {
+    font-size: 0.8rem;
+  }
+  .panel {
+    height: 30px;
+
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,80 @@
+.slider img {
+  height: 240px;
+  width: 100%;
+  overflow: auto;
+}
+#arrorLeft {
+  top: 0px;
+}
+.slider {
+  position: relative;
+  top: 1px;
+
+  margin-bottom: 12px;
+
+  box-shadow: none;
+}
+
+#arrowRight {
+  position: absolute;
+
+  top: 50%;
+  right: 10px;
+  font-size: 35px;
+}
+#arrowLeft {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  font-size: 35px;
+}
+.imgContainer {
+  display: relative;
+}
+.imgContainer img {
+  box-shadow: none;
+  border-bottom: 0px;
+}
+
+@media (min-width: 712px) and (max-width: 860px) {
+  .imgContainer img {
+    height: 160px;
+  }
+}
+@media (min-width: 530px) and (max-width: 711px) {
+  .imgContainer img {
+    height: 175px;
+  }
+  #arrowLeft {
+    top: 40%;
+    left: 5px;
+    font-size: 25px;
+  }
+  #arrowRight {
+    top: 40%;
+    right: 10px;
+    font-size: 25px;
+  }
+}
+
+#arrowLeft {
+  top: 40%;
+  left: 5px;
+  font-size: 25px;
+}
+#arrowRight {
+  top: 40%;
+  right: 10px;
+  font-size: 25px;
+}
+
+@media (max-width: 484px) {
+  .imgContainer img {
+    height: 139px;
+  }
+}
+@media (max-width: 466px) {
+  .imgContainer img {
+    height: 127px;
+  }
+}

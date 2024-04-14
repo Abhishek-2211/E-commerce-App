@@ -1,0 +1,57 @@
+.footer {
+  height: 300px;
+  background-color: #212121;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 3px -1px 3px grey;
+  margin-top: 16px;
+}
+
+.fcard {
+  margin: 40px;
+  height: 200px;
+}
+.fcard p {
+  color: aliceblue;
+  font-size: 0.9rem;
+  font-family: Arial;
+  margin: 12px;
+  opacity: 0.8;
+}
+.hrcard {
+  border-left: 1px solid #454d5e;
+  padding-left: 32px;
+}
+.side-fcard {
+  border-left: 1px solid white;
+  padding-left: 14px;
+  opacity: 0.8px;
+}
+.fres {
+  display: none;
+}
+
+@media (max-width: 725px) {
+  .fres {
+    display: block;
+    font-size: 0.5rem;
+  }
+  .res {
+    display: none;
+  }
+  .fres p {
+    color: white;
+    margin: 15px;
+  }
+  .fcard {
+    margin: 0px;
+  }
+  .footer {
+    height: 200px;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px -1px 2px grey;
+    margin-top: 10px;
+  }
+}

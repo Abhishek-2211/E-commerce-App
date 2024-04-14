@@ -1,0 +1,8 @@
+.searchProduct {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.notFound {
+  margin-top: 50px;
+}
